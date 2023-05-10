@@ -1,7 +1,7 @@
 <template>
     <footer class="bg-transparent  shadow m-0  py-10">
         <div class="w-full mx-auto max-w-screen-xl p-4 flex flex-col md:flex-row md:items-center justify-center items-center md:justify-between">
-            <span class="text-sm text-white sm:text-center dark:text-gray-400">© 2023 <a href="https://flowbite.com/"
+            <span class="text-sm text-white sm:text-center dark:text-gray-400">© 2023 <a href="#"
                     class="hover:underline">Tiwiecosystem™</a>. All Rights Reserved.
             </span>
 

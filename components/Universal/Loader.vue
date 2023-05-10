@@ -41,7 +41,7 @@ export default {
     height: 100vh;
     top: 0;
     left: 0;
-    background: black;
+    // background: black;
     z-index: 999999999;
     overflow: hidden;
 
@@ -55,7 +55,7 @@ export default {
 
         p {
             text-align: center;
-            font-family: $poppins;
+            font-family: $montserrat;
             // font-size: 4rem
         }
     }

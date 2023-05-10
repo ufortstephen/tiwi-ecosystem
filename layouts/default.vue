@@ -1,6 +1,7 @@
 <template>
     <Loader v-if="!showPage" />
-    <div class="container mx-auto p-5 page">
+    <!-- <div class="bg"></div> -->
+    <div class="p-5 page md:w-4/5 mx-auto">
         <Header />
 
         <router-view />

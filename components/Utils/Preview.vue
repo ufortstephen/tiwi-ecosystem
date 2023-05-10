@@ -6,7 +6,7 @@
                 <h3
                     class="bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text">
                     Construction</h3>
-                <span class="icon">
+                <!-- <span class="icon">
                     <svg class="slow-flash" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 512 512">
                         <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10"
                             stroke-width="32"
@@ -17,7 +17,7 @@
                         <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                             stroke-width="32"
                             d="m17.34 193.5l29.41-28.74a4.71 4.71 0 0 1 3.41-1.35a4.85 4.85 0 0 1 3.41 1.35h0a9.86 9.86 0 0 0 8.19 2.77c3.83-.42 7.92-1.6 10.57-4.12c6-5.8-.94-17.23 4.34-24.54a207 207 0 0 1 19.78-22.6c6-5.88 29.84-28.32 69.9-44.45A107.31 107.31 0 0 1 206.67 64c22.59 0 40 10 46.26 15.67a89.54 89.54 0 0 1 10.28 11.64a78.92 78.92 0 0 0-9.21-2.77a68.82 68.82 0 0 0-20-1.26c-13.33 1.09-29.41 7.26-38 14c-13.9 11-19.87 25.72-20.81 44.71c-.68 14.12 2.72 22.1 36.1 55.49a6.6 6.6 0 0 1-.34 9.16l-18.22 18a6.88 6.88 0 0 1-9.54.09c-21.94-21.94-36.65-33.09-45-38.16s-15.07-6.5-18.3-6.85a30.85 30.85 0 0 0-18.27 3.87a11.39 11.39 0 0 0-2.64 2a14.14 14.14 0 0 0 .42 20.08l1.71 1.6a4.63 4.63 0 0 1 0 6.64L71.73 246.6a4.71 4.71 0 0 1-3.41 1.4a4.86 4.86 0 0 1-3.41-1.35l-47.57-46.43a4.88 4.88 0 0 1 0-6.72Z" />
-                    </svg></span>
+                    </svg></span> -->
             </div>
             <div class="my-5">
                 <p class="text-[#CCC3DE] text-xl">We will be live in</p>
@@ -197,8 +197,10 @@ export default {
     padding: 2rem 0;
 
     h3 {
-        font-family: $editorial;
+        // font-family: $editorial;
+        // font-family: $montserrat;
         font-size: 4rem;
+        font-weight: 700;
     }
 
     .construction {
@@ -224,9 +226,9 @@ export default {
 
     .period {
         color: #CCC3DE;
-        font-size: 2.5rem;
+        font-size: 2rem;
         font-weight: 800;
-        font-family: $montserrat !important;
+        // font-family: $montserrat !important;
     }
 }
 
@@ -237,7 +239,7 @@ export default {
         display: flex;
 
         h3 {
-            font-family: $editorial;
+            // font-family: $montserrat;
             font-size: 3rem;
         }
 
