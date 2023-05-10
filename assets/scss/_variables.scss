@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+
+
+// Fonts
+$poppins: "Poppins', sans-serif";
+$editorial: "Editorial New";
+$montserrat: "Montserrat', sans-serif";
+
+// main colors
+$light-blue: #000A1C;
+$dark-blue: #03244D;
+$sky-blue: #024EC5;
+
+
+
+
+// additional colors
+$main-white: #f5f2ee;
+$white: #ffffff;
+$lighter-grey: #cecece;
+$light-grey: #f7f7f7;
+$lightest-grey: #f4f4f4;
+$ice-gray: #fbfbfb;
+
+
+$heading-line-height: (
+  'one': 59px,
+  'two': 85px,
+  'three': 30px,
+  'four': 25px,
+  'five': 25px
+);

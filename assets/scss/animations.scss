@@ -1,0 +1,37 @@
+@keyframes slow-flash {
+    0% {
+      opacity: 0.5;
+    }
+    25% {
+      opacity: 0.625;
+    }
+    50% {
+      opacity: 0.75;
+    }
+    75% {
+      opacity: 0.875;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+@keyframes page-load {
+    0% {
+      opacity: 1;
+    }
+    25% {
+      opacity: 0.75;
+    }
+    50% {
+      opacity: 0.625;
+    }
+    75% {
+      opacity: 0.4;
+      height: 10%;
+    }
+    100% {
+      opacity: 0;
+      height: 0%;
+      display: none;
+    }
+  }

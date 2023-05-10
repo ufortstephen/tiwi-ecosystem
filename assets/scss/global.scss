@@ -1,0 +1,77 @@
+@import "./variables";
+@import "./animations";
+
+
+
+* {
+    // margin: 0;
+    // padding: 0;
+    box-sizing: border-box;
+    
+  }
+  
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: $poppins;
+    color: $main-white;
+    // background-color: $light-blue;
+    scroll-behavior: smooth;
+    background: url('../../public/assets/bg-image.svg') no-repeat;
+    min-height: 100vh;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+
+    &::after{
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: url('../../public/assets/blue-bg.svg') no-repeat;
+      z-index: -1;
+      background-size: cover;
+      background-position: center;
+    }
+    
+  }
+
+
+  .slow-flash {
+    animation: slow-flash 500ms infinite linear;
+    animation-duration: 1s;
+  }
+  // .page-load {
+  //   animation: page-load  ease-in-out;
+  //   animation-duration: 2s;
+  //   animation-delay: 5s;
+  //   animation-iteration-count: 1;
+  // }
+
+  .page-loader {
+    
+  }
+
+  .page-titles {
+    line-height: 60px;
+    text-transform: uppercase;
+    font-family: $editorial;
+    font-size: 2.5rem;
+    font-weight: normal;
+    text-align: center;
+    margin: 2rem 0rem;
+  }
+
+  input:focus{
+    border: none;
+    outline: none;
+  }
+
+  @media(max-width: 768px){
+    .page-titles {
+      font-size: 1.5rem;
+    }
+  }
