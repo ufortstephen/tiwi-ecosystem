@@ -1,8 +1,8 @@
 <template>
     <section class="my-10  md:flex items-center justify-between preview">
-        <div class="mb-10 md:mb-0 text-center md:text-left">
+        <div class="mb-10 md:mb-0  md:text-left">
             <h3>Website is Under </h3>
-            <div class="flex items-center justify-center md:justify-start construction">
+            <div class="flex items-center justify-start md:justify-start construction">
                 <h3
                     class="bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text">
                     Construction</h3>
@@ -22,7 +22,7 @@
             <div class="my-5">
                 <p class="text-[#CCC3DE] text-xl">We will be live in</p>
                 <vue-countdown :time="time" v-slot="{ days, hours, minutes, seconds }">
-                    <div class="flex items-center gap-5 justify-center md:justify-start">
+                    <div class="flex items-center gap-5 justify-start md:justify-start">
                         <div>
                             <p class="text-center period">{{ days }} </p>
                             <p class="text-center">Days</p>
@@ -49,7 +49,7 @@
                 rounded-3xl bg-gradient-to-r from-[#2EEBFC] via-[#5979DF] to-[#7C1DC9]
                  hover:bg-gradient-to-r hover:from[#7C1DC9] hover:via-[#5979DF] hover:to-[#2EEBFC]">Join
                 Our Community</button>
-            <div class="flex items-center justify-center md:justify-start mt-3 gap-3">
+            <div class="flex items-center justify-start md:justify-start mt-3 gap-3">
                 <a href="https://web.facebook.com/tiwiecosytem/ ">
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
                         <path fill="currentColor"
