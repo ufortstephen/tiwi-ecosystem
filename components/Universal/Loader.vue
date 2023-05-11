@@ -8,7 +8,7 @@
 
         <div class="image">
             <img src="/assets/tiwi-logo.svg" alt="" class="header-logo">
-            <p>A decentralized ecosystem of real-world utilities and cryptographic application.</p>
+            <p class="md:text-2xl">A decentralized ecosystem of real-world utilities and cryptographic application.</p>
         </div>
     </div>
 </template>

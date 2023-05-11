@@ -15,6 +15,11 @@
                     </a>
                 </li>
                 <li class="mr-4 text-white">
+                    <a href="mailto:tiwidev01@gmail.com" class="mr-4 hover:underline md:mr-6 ">
+                        <span><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 256 256"><path fill="currentColor" d="M224 52H32a4 4 0 0 0-4 4v136a12 12 0 0 0 12 12h176a12 12 0 0 0 12-12V56a4 4 0 0 0-4-4Zm-10.28 8L128 138.57L42.28 60ZM216 196H40a4 4 0 0 1-4-4V65.09L125.3 147a4 4 0 0 0 5.4 0L220 65.09V192a4 4 0 0 1-4 4Z"/></svg></span>
+                    </a>
+                </li>
+                <li class="mr-4 text-white">
 
                     <a href="https://twitter.com/tiwiecosystem" class="mr-4 hover:underline md:mr-6">
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
