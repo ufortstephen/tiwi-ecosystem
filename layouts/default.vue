@@ -35,7 +35,7 @@ export default {
     mounted() {
         setTimeout(() => {
             var tl = gsap.timeline()
-            tl.to('.page-loader', { x: 100, opacity: 0, display: 'none', duration: 1, ease: 'slow', delay: 3 })
+            tl.to('.page-loader', { x: 100, opacity: 0, display: 'none', duration: 1, ease: 'slow', delay: 2 })
 
 
             tl.to('.page', { height: '100%', duration: 1, ease: 'back.out(1.7)', opacity: 1 })
@@ -49,8 +49,7 @@ export default {
 
 <style scoped>
 .page {
-    height: 1%;
-
-    opacity: 0
+    height: 1%; 
+    opacity: 0 
 }
 </style>
