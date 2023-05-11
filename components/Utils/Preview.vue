@@ -9,24 +9,24 @@
 
             </div>
             <div class="my-5">
-                <p class="text-[#CCC3DE] text-xl mb-5 md:mb-0">We will be live in</p>
+                <p class="text-[#CCC3DE] text-lg mb-5 md:mb-0">We will be live in</p>
                 <vue-countdown :time="time" v-slot="{ days, hours, minutes, seconds }">
                     <div class="flex items-center gap-5 justify-center md:justify-start">
                         <div>
                             <p class="text-center period">{{ days }} </p>
-                            <p class="text-center">Days</p>
+                            <p class="text-center text-[#CCC3DE] text-sm">Days</p>
                         </div>
                         <div>
                             <p class="text-center period">{{ hours }} </p>
-                            <p class="text-center">Hours</p>
+                            <p class="text-center text-[#CCC3DE] text-sm">Hours</p>
                         </div>
                         <div>
                             <p class="text-center period">{{ minutes }} </p>
-                            <p class="text-center">minutes</p>
+                            <p class="text-center text-[#CCC3DE] text-sm">minutes</p>
                         </div>
                         <div>
                             <p class="text-center period">{{ seconds }} </p>
-                            <p class="text-center">seconds</p>
+                            <p class="text-center text-[#CCC3DE] text-sm">seconds</p>
                         </div>
 
                     </div>
@@ -199,8 +199,9 @@ export default {
     h3 {
         // font-family: $editorial;
         // font-family: $montserrat;
-        font-size: 3.5rem;
+        font-size: 3rem;
         font-weight: 700;
+        line-height: 47px;
     }
 
     .construction {
@@ -220,13 +221,14 @@ export default {
     }
 
     .construction-img {
-        width: 75%;
-        margin: 0px auto;
+        width: 65%;
+        // margin: 0px auto;
+        margin-left: auto;
     }
 
     .period {
         color: #CCC3DE;
-        font-size: 2rem;
+        font-size: 1.8rem;
         font-weight: 800;
         // font-family: $montserrat !important;
     }
